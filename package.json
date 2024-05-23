@@ -1,0 +1,19 @@
+{
+  "name": "inm420",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run_that_liteserver": "lite-server --baseDir=\"public_html\"",
+    "awesome": "node-sass src/scss -wo public_html/assets/css",
+    "start": "concurrently \"npm run awesome\" \"npm run run_that_liteserver\" "
+  },
+  "keywords": [],
+  "author": "Thi Phuong Thao Trinh",
+  "license": "private",
+  "devDependencies": {
+    "concurrently": "^7.0.0",
+    "lite-server": "^2.6.1",
+    "node-sass": "^7.0.1"
+  }
+}

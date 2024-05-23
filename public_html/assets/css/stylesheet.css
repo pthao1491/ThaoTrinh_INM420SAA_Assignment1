@@ -1,0 +1,51 @@
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+p {
+  font-weight: 400;
+  font-size: 18px;
+  color: #5C5C5C;
+}
+
+
+/*nav bar*/
+
+nav{
+  filter: drop-shadow(0px 2px 4px rgba(38, 50, 56, 0.16)) drop-shadow(0px 4px 8px rgba(38, 50, 56, 0.08));
+}
+.navbar-brand {
+  color: #5C5C5C;
+  font-weight: 700;
+  font-size: 24px;
+}
+.logo{
+  display: none;
+}
+.sign-in{
+  width: 128px;
+  background: #6C5CE7;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(38, 50, 56, 0.16), 0px 4px 8px rgba(38, 50, 56, 0.08);
+  color: white;
+  padding: 6px 20px;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0.2px;
+  text-shadow: 0px 2px 4px rgba(38, 50, 56, 0.16), 0px 4px 8px rgba(38, 50, 56, 0.08);
+}
+.active{
+  color: #2D3436;
+}
+.nav-link{
+  font-weight: 400;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #6C5CE7;
+}
+.dot{
+  display: none;
+}
+
